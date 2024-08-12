@@ -16,3 +16,6 @@ C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\o
 C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\ref\Catedra1.dll
 C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\Catedra1.Registro.resources
 C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\Catedra1.Main.resources
+C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\Catedra1.SplashScreen.resources
+C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\Catedra1.sourcelink.json
+C:\Users\nelso\OneDrive\Escritorio\Universidad Don Bosco\DSP\Catedra1\Catedra1\obj\Debug\net7.0-windows\Catedra1.Properties.Resources.resources

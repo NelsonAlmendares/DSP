@@ -3,7 +3,6 @@ namespace Catedra1
     public partial class Login : Form
     {
 
-
         public Login()
         {
             InitializeComponent();
@@ -52,17 +51,28 @@ namespace Catedra1
             string username = txt_user.Text;
             string password = mskTxtContra.Text;
 
-            if (ValidateCredentials(username, password))
-            {
-                MessageBox.Show("Login successful!");
-                Main main = new Main();
-                this.Hide();
-                main.Show();
+            // Validamos los campos para que no estén vacíos
+            if (username == "") {
+                MessageBox.Show("El campo de usuario no puede estar vacío.", "Campo vacío", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (password == "") {
+                MessageBox.Show("El campo de contraseña no puede estar vacío.", "Campo vacío", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Invalid username or password.");
-            }
+                // Validar con el archivo para realizar el login
+                if (ValidateCredentials(username, password))
+                {
+                    MessageBox.Show("Login successful!");
+                    Main main = new Main();
+                    this.Hide();
+                    main.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password.");
+                }
+            }            
         }
 
         private void btn_registerUser_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
